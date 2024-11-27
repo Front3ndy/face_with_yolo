@@ -1,0 +1,12 @@
+train: ./train/images
+val: ./train/images
+
+nc: 7
+names: ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+
+roboflow:
+  workspace: copsut
+  project: emotion-dataset
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/copsut/emotion-dataset/dataset/2
